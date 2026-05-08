@@ -1,16 +1,31 @@
-# 🦋 Tata — AI 人格复刻聊天体
+# 🦋 Tata v2.0 — AI 人格复刻聊天体
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="version">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue" alt="version">
   <img src="https://img.shields.io/badge/python-3.11+-green" alt="python">
+  <img src="https://img.shields.io/badge/flutter-3.16+-blue" alt="flutter">
   <img src="https://img.shields.io/badge/license-MIT-purple" alt="license">
-  <img src="https://img.shields.io/badge/status-active-success" alt="status">
+  <img src="https://img.shields.io/badge/platforms-iOS%20|%20Android%20|%20HarmonyOS-orange" alt="platforms">
 </p>
 
 <p align="center">
-  <b>让 AI 模仿你最想聊天的那个人</b><br>
-  上传聊天记录 → 配置人格习惯 → 获得一个会主动给你发消息的「TA」
+  <b>上传聊天记录，复刻TA的说话风格，让AI化身主动给你发消息</b><br>
+  📱 iOS · Android · 鸿蒙 &nbsp;|&nbsp; 🔌 DeepSeek · OpenAI · MiMo &nbsp;|&nbsp; 💰 Token 计费
 </p>
+
+---
+
+## 🆕 v2.0 更新
+
+| 功能 | 描述 |
+|------|------|
+| 📱 **三端支持** | Flutter 前端，同时支持 iOS / Android / HarmonyOS |
+| 🎯 **Token 网关** | 服务器统一管理 API Token，用户无需接触 API Key |
+| 📸 **截图 OCR** | 直接对微信聊天截图进行文字识别，提取对话记录 |
+| 🖼️ **用户照片** | 上传自己/TA的照片，完善人格画像 |
+| 👤 **双画像系统** | 用户画像 + 对方画像，独立管理、随时调整 |
+| 🔄 **随时微调** | 人格参数实时可调——说话风格、习惯、情绪全可改 |
+| 📊 **Token 追踪** | 每次对话消耗 Token 可查，成本透明 |
 
 ---
 
