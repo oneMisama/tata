@@ -24,8 +24,16 @@ class Settings(BaseSettings):
     openai_base_url: str = "https://api.openai.com/v1"
     deepseek_api_key: Optional[str] = None
     deepseek_base_url: str = "https://api.deepseek.com/v1"
-    default_model: str = "gpt-4o-mini"
+    mimo_api_key: Optional[str] = None
+    mimo_base_url: str = "https://api.xiaomimimo.com/v1"
+    default_model: str = "deepseek-chat"
+    default_provider: str = "deepseek"
     embedding_model: str = "text-embedding-3-small"
+
+    # Token Quota
+    free_tier_tokens: int = 50000      # Free: 50K tokens
+    pro_tier_tokens: int = 2000000     # Pro: 2M tokens (~$0.50)
+    enterprise_tier_tokens: int = 10000000  # Enterprise: 10M tokens
 
     # Stripe Payment
     stripe_api_key: Optional[str] = None
